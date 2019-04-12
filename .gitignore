@@ -1,0 +1,158 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# Bundler
+.bundle
+
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+# 
+# Note: if you ignore the Pods directory, make sure to uncomment
+# `pod install` in .travis.yml
+#
+# Pods/
+Example/Pods/Manifest.lock
+Example/Pods/CryptoSwift/LICENSE
+Example/Pods/CryptoSwift/README.md
+Example/Pods/CryptoSwift/Sources/CryptoSwift/AES.Cryptors.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/AES.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Array+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Authenticator.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BatchedCollection.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Bit.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockCipher.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockDecryptor.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockEncryptor.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Blowfish.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/CBCMAC.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Checksum.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Cipher.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/CMAC.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Collection+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/CompactMap.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Cryptor.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Cryptors.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Digest.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/DigestType.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Generics.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/HKDF.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/HMAC.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Int+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/MD5.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/NoPadding.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Operators.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Padding.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Poly1305.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Rabbit.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/RandomBytesSequence.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Scrypt.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/SecureBytes.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/SHA1.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/SHA2.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/SHA3.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/StreamDecryptor.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/StreamEncryptor.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/String+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/UInt128.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/UInt16+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/UInt32+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/UInt64+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/UInt8+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Updatable.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Utils.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/ZeroPadding.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/AEAD/AEAD.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/BlockMode.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CBC.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CCM.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CFB.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CipherModeWorker.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CTR.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/ECB.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/GCM.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/OFB.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/PCBC.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/AES+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Array+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/HMAC+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Utils+Foundation.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PBKDF1.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PBKDF2.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS5.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS7.swift
+Example/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS7Padding.swift
+Example/Pods/Local Podspecs/UDWrapper.podspec.json
+Example/Pods/Pods.xcodeproj/project.pbxproj
+Example/Pods/SwiftKeychainWrapper/LICENSE
+Example/Pods/SwiftKeychainWrapper/README.md
+Example/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift
+Example/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift
+Example/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/SwiftKeychainWrapper.h
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift-dummy.m
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift-Info.plist
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift-prefix.pch
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift.modulemap
+Example/Pods/Target Support Files/CryptoSwift/CryptoSwift.xcconfig
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-dummy.m
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-frameworks.sh
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-Info.plist
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example-umbrella.h
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example.debug.xcconfig
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example.modulemap
+Example/Pods/Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example.release.xcconfig
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-dummy.m
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-frameworks.sh
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-Info.plist
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests-umbrella.h
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests.debug.xcconfig
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests.modulemap
+Example/Pods/Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests.release.xcconfig
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-dummy.m
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-Info.plist
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-umbrella.h
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap
+Example/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.xcconfig
+Example/Pods/Target Support Files/UDWrapper/UDWrapper-dummy.m
+Example/Pods/Target Support Files/UDWrapper/UDWrapper-Info.plist
+Example/Pods/Target Support Files/UDWrapper/UDWrapper-prefix.pch
+Example/Pods/Target Support Files/UDWrapper/UDWrapper-umbrella.h
+Example/Pods/Target Support Files/UDWrapper/UDWrapper.modulemap
+Example/Pods/Target Support Files/UDWrapper/UDWrapper.xcconfig
