@@ -17,9 +17,9 @@ struct UDManagerKeyValue {
 
 }
 
-class  UDManager {
+class  UDWrappper {
 
-    static let shared =  UDManager()
+    static let shared =  UDWrappper()
 
     private static let trueValue = "true"
     private static let falseValue = "false"
@@ -36,11 +36,11 @@ class  UDManager {
     func getBool(userDefaultKeyValue:String) -> Bool? {
         guard let data = self.getData(userDefaultKeyValue: userDefaultKeyValue),
             let dataToString = String(data: data, encoding: String.Encoding.utf8) else { return nil }
-        return dataToString == UDManager.trueValue
+        return dataToString == UDWrappper.trueValue
     }
 
     func set(userDefaultKeyValue:String, value: Bool = true) {
-        guard let data = String(value ? UDManager.trueValue : UDManager.falseValue).data(using: .utf8) else { return }
+        guard let data = String(value ? UDWrappper.trueValue : UDWrappper.falseValue).data(using: .utf8) else { return }
         self.set(userDefaultKeyValue: userDefaultKeyValue, dataValue: data)
     }
 
@@ -217,7 +217,7 @@ class  UDManager {
     
 }
 
-extension UDManager:Reseteable {
+extension UDWrappper:Reseteable {
     func reset() {
 
         _ = Array(UserDefaults.standard.dictionaryRepresentation().keys).map({ UserDefaults.standard.removeObject(forKey: $0) })

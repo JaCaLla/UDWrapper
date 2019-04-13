@@ -1,6 +1,6 @@
 # UDWrapper
 
-[![CI Status](https://img.shields.io/travis/Javier Calatrava Llaveria/UDWrapper.svg?style=flat)](https://travis-ci.org/Javier Calatrava Llaveria/UDWrapper)
+UDWrapper is userdefaults wrapper, but adding a safety layer by encryping persisted data.
 [![Version](https://img.shields.io/cocoapods/v/UDWrapper.svg?style=flat)](https://cocoapods.org/pods/UDWrapper)
 [![License](https://img.shields.io/cocoapods/l/UDWrapper.svg?style=flat)](https://cocoapods.org/pods/UDWrapper)
 [![Platform](https://img.shields.io/cocoapods/p/UDWrapper.svg?style=flat)](https://cocoapods.org/pods/UDWrapper)
