@@ -1,7 +1,7 @@
 PODS:
   - CryptoSwift (1.0.0)
   - SwiftKeychainWrapper (3.0.1)
-  - UDWrapper (0.1.0):
+  - UDWrapper (0.1.1):
     - CryptoSwift
     - SwiftKeychainWrapper (~> 3.0.1)
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
-  UDWrapper: 4a3c42f1883cf7ad70949ca213c112173eb67bb0
+  UDWrapper: 1e236f8427d970aa90b39e6a4fb676f867d69b17
 
 PODFILE CHECKSUM: e1538ffb1bdabde9131fd9783ce3b41390fde213
 
