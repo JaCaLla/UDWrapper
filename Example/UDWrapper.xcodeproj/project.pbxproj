@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1038BE51DB92229B6565932E /* Pods_UDWrapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6BD3F7A4BA5F98AF42AE6 /* Pods_UDWrapper_Example.framework */; };
-		5E0C1DCA22606E850016F6CF /* UDWrapper_UT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0C1DC922606E850016F6CF /* UDWrapper_UT.swift */; };
+		5E05B9C922624E4100027782 /* UDWraper_Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05B9C822624E4100027782 /* UDWraper_Objects.swift */; };
+		5E0C1DCA22606E850016F6CF /* UT_UDWrapper_Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0C1DC922606E850016F6CF /* UT_UDWrapper_Primitives.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,8 +32,9 @@
 		285FB8AF37C17E2047F52CFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A411712719BA0EA3079C043 /* Pods-UDWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDWrapper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UDWrapper_Tests/Pods-UDWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C7846D64C0F07C1EE45E748 /* Pods-UDWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDWrapper_Example.release.xcconfig"; path = "Target Support Files/Pods-UDWrapper_Example/Pods-UDWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5E05B9C822624E4100027782 /* UDWraper_Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDWraper_Objects.swift; sourceTree = "<group>"; };
 		5E0C1DC822606E850016F6CF /* UDWrapper_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UDWrapper_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
-		5E0C1DC922606E850016F6CF /* UDWrapper_UT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDWrapper_UT.swift; sourceTree = "<group>"; };
+		5E0C1DC922606E850016F6CF /* UT_UDWrapper_Primitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UT_UDWrapper_Primitives.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UDWrapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDWrapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
-				5E0C1DC922606E850016F6CF /* UDWrapper_UT.swift */,
+				5E0C1DC922606E850016F6CF /* UT_UDWrapper_Primitives.swift */,
+				5E05B9C822624E4100027782 /* UDWraper_Objects.swift */,
 				5E0C1DC822606E850016F6CF /* UDWrapper_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
@@ -379,7 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0C1DCA22606E850016F6CF /* UDWrapper_UT.swift in Sources */,
+				5E05B9C922624E4100027782 /* UDWraper_Objects.swift in Sources */,
+				5E0C1DCA22606E850016F6CF /* UT_UDWrapper_Primitives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

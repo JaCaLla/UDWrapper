@@ -32,6 +32,18 @@ class  UDWrappper {
         set(userDefaultKeyValue: UDManagerKeyValue.initializated)
     }
 
+    // MARK: - Date
+    func getDate(userDefaultKeyValue:String) -> Date? {
+        guard let data = self.getData(userDefaultKeyValue: userDefaultKeyValue),
+            let dataToString = String(data: data, encoding: String.Encoding.utf8) else { return nil }
+        return Date(timeIntervalSince1970:TimeInterval(Double(dataToString) ?? 0))
+    }
+
+    func set(userDefaultKeyValue:String, value: Date) {
+        guard let data = String(value.timeIntervalSince1970).data(using: .utf8) else { return }
+        self.set(userDefaultKeyValue: userDefaultKeyValue, dataValue: data)
+    }
+
     // MARK: - Bool
     func getBool(userDefaultKeyValue:String) -> Bool? {
         guard let data = self.getData(userDefaultKeyValue: userDefaultKeyValue),

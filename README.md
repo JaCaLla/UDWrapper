@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'UDWrapper'
 ```
 
+## Usage
+
+```ruby
+// Store
+UDWrappper.shared.set(userDefaultKeyValue: "key", string: "Hello Worlkd!")
+// Load
+let value = UDWrappper.shared.getString(userDefaultKeyValue: StoredKeyValue.attrString)
+```
+
 ## Author
 
 Javier Calatrava Llaveria, javier.calatravallaveria@altran.com
